@@ -16,12 +16,37 @@
  * 掌握的css预处器：less
  * 掌握的项目构建工具与模块打包工具：gulp、webpack
  * 掌握的测试框架及工具：karma、mocha
- * 掌握基本的后端开发：node.js、mongodb、redis
+ * 掌握基本的后端开发：node.js、mongodb、redis、socketio
  * 掌握一些桌面端的开发手段：nw.js
  * 掌握的开发版本管理调试工具：sublime、webstorm、intelliJ IDEA、atom、git、chrome 调试工具
  * 了解过 vue.js、react.js、meteor.js、typescript、Electron.js、docker
  
  ## 项目经历
+ 
+ ### [GSM-足球赛事组织报名管理系统](http://gsm-test.xiaojiang.me/gsm)
+ 访问地址: http://gsm-test.xiaojiang.me/gsm
+ 
+ ###### 实现技术手段:
+ 
+ *1)jquery
+ *1)jquery-ui
+ *1)require.js
+ *2)angular.js
+ *2)ui-bootstrap
+ *2)flat-ui
+ 
+ ###### 项目简介
+ 
+ 这是一个足球赛事管理系统 对于赛事报名方(登陆账号)而言是个赛事报名跟踪系统 对于赛事组织方(登陆账号)而言是个赛事组织管理系统
+ 该系统早期技术选型出于对ie6,ie7 的考量第一个大版本部分使用后端渲染freemarker模板的方案实现的，
+ 前端主要通过jQuery jQuery-UI 和其他基于jQuery的插件实现前端用户交互逻辑和一些数据的异步请求加载，
+ 该版本的样式层直接使用的css，更没有gulp，grunt之类的构建工具的接入。
+ 后来的第二个大版本直接完全重构，纯粹的前后端分离，前端使用angular-ui-router实现路由功能，
+ 在flat-ui 和 ui-bootstrap 的基础上实现页面的样式及交互功能
+ 前端通过和后台提供的restful api实现交互数据 完成增删改查显示等诸多操作
+ 相比于使用jQuery 对使用原生javascript 带来的生产力解放，angular操作数据的方式也让jquery操作DOM的方式看起来如同是刀耕火种。
+ 当然angular也有很多不适用的场景 ng1 在seo方面的薄弱和双向数据绑定带来的性能问题也是不容忽视的。
+ (14299999999 admin)
  
  ### [赛事报表 赛事数据html2PDF报告生成程序](http://123.59.46.69:3000/preview/CD93704A-793E-47B7-99BC-723886986175)
  项目地址: <http://123.59.46.69:3000/preview/CD93704A-793E-47B7-99BC-723886986175>
