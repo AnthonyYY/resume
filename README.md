@@ -1,6 +1,6 @@
  个人简历
  ===============
- 个人信息
+ 基本信息
  ---------------
  **姓名**： 叶家洪
  
@@ -9,8 +9,6 @@
  **毕业学校**：**福建省华侨大学** 工业设计数字工程动画专业
  
  > "Anything that can be written in JavaScript will eventually be written  in JavaScript!" 你打我呀
- 
- ## 自我介绍
 
  ## 技术能力
  * 掌握的javascript类库：jquery、jqueryUI、zepto
@@ -19,8 +17,9 @@
  * 掌握的项目构建工具与模块打包工具：gulp、webpack
  * 掌握的测试框架及工具：karma、mocha
  * 掌握基本的后端开发：node.js、mongodb、redis
+ * 掌握一些桌面端的开发手段：nw.js
  * 掌握的开发版本管理调试工具：sublime、webstorm、intelliJ IDEA、atom、git、chrome 调试工具
- * 了解过 vue.js、react.js、meteor.js、typescript、docker
+ * 了解过 vue.js、react.js、meteor.js、typescript、Electron.js、docker
  
  ## 项目经历
  
@@ -92,6 +91,11 @@
  这是个手机端足球赛事直播网，
  选择特定联赛后可以显示联赛的各种数据，积分，排行，榜单，球队数据，球员数据，
  可以实现赛事直播，录播，集锦回放，实况文字直播，比赛数据统计显示等功能
+ 
+ ### [公司官网开发与维护](http://www.gengee.com/)
+ 访问地址: http://www.gengee.com/
+ 
+ 公司官网早期的开发与维护工作
  
  ## 自我简介(精简版)
  
