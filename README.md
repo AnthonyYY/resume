@@ -15,7 +15,7 @@
  
  ### [赛事报表 赛事数据html2PDF报告生成程序](http://123.59.46.69:3000/preview/CD93704A-793E-47B7-99BC-723886986175)
  项目地址: <http://123.59.46.69:3000/preview/CD93704A-793E-47B7-99BC-723886986175>
- 实现的技术：
+ ###### 实现技术手段
  * node.js
  * Express.js 提供文件的下载、访问、渲染接口
  * phantom.js 真正绘制pdf文件的模块(phantom-node)
@@ -25,7 +25,7 @@
  * artTemplate(aui) 作为node.js的模板引擎 最后将所有页面模块 include 到一个main文件
  
  ###### 项目简介
- phantom.js这个第三方木块渲染不了异步获取的东西，不适合使用前后端分离的方案，放弃使用angular，
+ phantom.js这个第三方模块渲染不了异步获取的东西，不适合使用前后端分离的方案，放弃使用angular，
  java渲染freemarker方案需要后端同学的介入 构建的开发环境也不够友好pass
  最后考虑以node.js作为中间层整合后端提供的api 拿到数据 用artTemplate这个模板引擎渲染数据，
  模板引擎难以绘制的复杂图形，将需要的数据以json字符串的形式提供给client端在client端执行canvas脚本绘制出来，
@@ -40,6 +40,34 @@
  开发遇到的问题： 之前对只专注在代码对业务逻辑的处理，忽视了性能方面的考量，
  程序处理过程中没有对各种情况下的程序处理结果后正确关闭调用的进程导致在使用过程中曾导致服务器崩溃，后面在代码做了处理解决了问题
  
+ ### 专利管理系统软件 下载地址 <http://pan.baidu.com/share/link?shareid=102749&uk=>
+ ###### 实现技术手段
+ * nw.js(node.js + chromium)
+ * angular.js
+ * linvodb3
+ * ng-highchart
+ * node-xlsx
+ * md5
+ * blue-bird
+ * NSIS
+ 
+ ###### 项目简介
+ 这是一个可以安装在window系统运行的(理论上在mac OS和liniux上也是可以安装运行的)的专利查询系统的exe文件，
+ 考虑到无法对winXP系统的兼容当时并未选择更倾向的Electron.js主要框架，而是选择了 nw.js
+ 程序的主要功能就是导入excel表格文件 读取文件的专利数据信息保存到数据库 并且提供专利项的查询展示统计等功能，
+ 程序通过md5实现伪登陆功能，登陆的实现不需要与数据库交互，只要用户名和密码的组合通过结合md5的加密算法就可以登陆
+ excel表格的数据内容并不复杂 因此一个轻量级的非关系型数据库就可以胜任
+ 考虑到程序的体积大小和移植性当时弃用了MongoDB,
+ 也没有选择轻量级的关系型数据库sqlite3，
+ 最后选用了linvodb3 这个数据库(https://github.com/Ivshti/linvodb3)
+ Gituhb文档首页这样描述该数据库Persistent database for Node.js/NW.js/Electron with MongoDB/Mongoose-like features and interface on top of LevelUp
+ 然后使用node.js 的文件系统配合input[type='file']实现了程序专利图片和专利pdf文件的批量导入功能(导入到程序中)
+ 通过ng-highchart 实现多项专利的统计功能
+ 通过linvodb3实现程序的专利搜索
+ 这个项目的实现对我而言在数据库上的设计上比较不完善，数据库只保存了excel文件导入的所有信息，其余的所有信息都是在query的时候计算出来的，
+ 比如每一次程序打开时程序的导航栏的标题数据都遍历了所有专利项，从所有专利项的标题属性中distinguish出所有不同项的集合作为导航栏的标题，
+ 后来想想是可以在数据导入完成后将这个计算结果持久化在数据库供查询使用的，毕竟客户端的数据库没有网络请求过程的
+ 这个项目完全是个人外包项目
  
  ## 自我简介(精简版)
  
