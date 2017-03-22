@@ -23,6 +23,7 @@
  * canvas 略微复杂图形的绘制工具
  * async.js(parallel) 使用request整合后端api完成后与模板渲染数据之间的一个承轴
  * artTemplate(aui) 作为node.js的模板引擎 最后将所有页面模块 include 到一个main文件
+ 
  ####### 项目简介
  phantom.js这个第三方木块渲染不了异步获取的东西，不适合使用前后端分离的方案，放弃使用angular，
  java渲染freemarker方案需要后端同学的介入 构建的开发环境也不够友好pass
