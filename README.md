@@ -95,6 +95,11 @@
  ### [公司官网开发与维护](http://www.gengee.com/)
  访问地址: http://www.gengee.com/
  
+ ###### 实现技术手段:
+ * bootstrap
+ * jQuery
+ ###### 项目简介
+
  公司官网早期的开发与维护工作
  
  ## 自我简介(精简版)
