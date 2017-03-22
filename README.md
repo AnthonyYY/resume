@@ -28,12 +28,12 @@
  
  ###### 实现技术手段:
  
- *1)jquery
- *1)jquery-ui
- *1)require.js
- *2)angular.js
- *2)ui-bootstrap
- *2)flat-ui
+ * 1)jquery
+ * 1)jquery-ui
+ * 1)require.js
+ * 2)angular.js
+ * 2)ui-bootstrap
+ * 2)flat-ui
  
  ###### 项目简介
  
