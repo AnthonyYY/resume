@@ -33,23 +33,25 @@
  为了提高开发效率也在node程序里加入了gulp的工作流
  node.js 提供一个地址端口作为开发环境显示pdf文件的html版本的预览模式，用于调试布局，
  另外提供一个调用pdf文件的渲染查看的接口和pdf文件下载的接口给其他网站使用，
- 按照以上思路整合以上技术我实现了整个项目的开发环境的构建供其他前端开发者实现页面布局，
- 中间也参与实现了页面的layout工作 canvas 的绘制工作，后期项目在centos的部署工作,
+ 按照这些思路我整合以上技术我实现了整个项目的开发环境的开荒工作构建了基础开发环境供其他前端开发者实现页面布局，
+ 中间也参与实现了页面的layout工作 canvas 的绘制工作，后期项目在centos的部署工作。
+ 最后项目也以快于预期的时间完成工作并且开发过程相对友好减轻了开发压力
  这个项目的完成使我对node.js有了更深入的了解和运用 并且对于node.js 作为中间层的使用有了更深的理解，
  这也是我第一个在公司部署上线被使用的node程序，
  开发遇到的问题： 之前对只专注在代码对业务逻辑的处理，忽视了性能方面的考量，
  程序处理过程中没有对各种情况下的程序处理结果后正确关闭调用的进程导致在使用过程中曾导致服务器崩溃，后面在代码做了处理解决了问题
  
- ### 专利管理系统软件 下载地址 <http://pan.baidu.com/share/link?shareid=102749&uk=>
+ ### 专利管理系统软件 
+ 下载地址： <http://pan.baidu.com/share/link?shareid=102749&uk=>
  ###### 实现技术手段
- * nw.js(node.js + chromium)
- * angular.js
- * linvodb3
- * ng-highchart
- * node-xlsx
- * md5
- * blue-bird
- * NSIS
+ * nw.js(node.js + chromium) 软件开发的技术平台
+ * angular.js 协助实现数据可视化的框架
+ * linvodb3 用于实现专利数据存储与查询的数据库
+ * ng-highchart 用于专利统计图表显示的第三方模块
+ * node-xlsx 解析excel 表格以来的模块
+ * md5 登陆模块实现的主要依赖
+ * blue-bird 项目promise化
+ * NSIS window exe程序打包工具
  
  ###### 项目简介
  这是一个可以安装在window系统运行的(理论上在mac OS和liniux上也是可以安装运行的)的专利查询系统的exe文件，
