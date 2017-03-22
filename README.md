@@ -7,6 +7,9 @@
  **性别**： 男
  
  **毕业学校**：**福建省华侨大学** 工业设计数字工程动画专业
+ 
+ > "Anything that can be written in JavaScript will eventually be written  in JavaScript!" 你打我呀
+ 
  ## 自我介绍
 
  ## 技术能力
@@ -89,4 +92,3 @@
  大四下学期开始接触web并投入学习 在校期间玩转了一段时间的CSS3习了点jQuery就觉得“学有所成”便出去面试实习岗位并在厦门蓝尚信息科技(<http://www.ulandian.com/>)
  工作了三个月期间负责公司官网的搭建和维护同时完成宣传招聘微信html5页面的制作。至此还未与后端交互的经验。毕业后来到简极科技担任前端开发工程师一职
  
- > "Anything that can be written in JavaScript will eventually be written  in JavaScript! 你打我啊
