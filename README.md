@@ -12,13 +12,13 @@
 
  ## 技术能力
  * 掌握的javascript类库：jquery、jqueryUI、zepto
- * 掌握的javascript框架：Angular.js
+ * 掌握的javascript框架：Angular.js、bootstrap
  * 掌握的css预处器：less
  * 掌握的项目构建工具与模块打包工具：gulp、webpack
  * 掌握的测试框架及工具：karma、mocha
  * 掌握基本的后端开发：node.js、mongodb、redis、socketio
  * 掌握一些桌面端的开发手段：nw.js
- * 掌握的开发版本管理调试工具：sublime、webstorm、intelliJ IDEA、atom、git、chrome 调试工具
+ * 掌握的开发版本管理调试工具：sublime、webstorm、intelliJ IDEA、atom、git、chrome 调试工具、npm、bower、yarn
  * 了解过 vue.js、react.js、meteor.js、typescript、Electron.js、docker
  
  ## 项目经历
