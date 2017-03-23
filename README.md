@@ -6,7 +6,7 @@
  
  **性别**： 男
  
- **毕业学校**：**福建省华侨大学** 工业设计数字工程动画专业
+ **毕业学校**：**福建省华侨大学**  工业设计数字工程动画专业
  
  > "Anything that can be written in JavaScript will eventually be written  in JavaScript!" 你打我呀
 
@@ -159,5 +159,10 @@
  我对自己的英语阅读水平比较自信 得益于此我不仅能无障碍阅读英文文档并且在stackovwerflow、github和google上得到很多帮助
  我觉得自己还需要多多阅读源码
  
- ### 
+ ## 联系方式
+ 邮箱1：yjh2332@gmail.com
+ 邮箱2：yjh2332@163.com
+ zhihu：https://www.zhihu.com/people/xie-jia-hong-20
+ 
+ 
  
