@@ -48,6 +48,22 @@
  当然angular也有很多不适用的场景 ng1 在seo方面的薄弱和双向数据绑定带来的性能问题也是不容忽视的。
  (14299999999 admin)
  
+ ### [校园足球球员苗子库](http://gsm.xiaojiang.me/Seeding)
+ 访问地址：http://gsm.xiaojiang.me/Seeding (admin admin123)
+ ###### 实现技术手段
+ - angular
+ - ui-bootstrap
+ - ng-highchart
+ - flat-ui
+ 
+ ###### 项目简介
+ 
+ 这个系统是用作校园足球员人才苗子库的数据管理系统. 
+ 该系统包括两大部分，球员筛选页面和球员详情页面(球员简历、球员战绩、球员对比三个tag)
+ 基于flat-ui风格的样式
+ 
+
+ 
  ### [赛事报表 赛事数据html2PDF报告生成程序](http://123.59.46.69:3000/preview/CD93704A-793E-47B7-99BC-723886986175)
  项目地址: <http://123.59.46.69:3000/preview/CD93704A-793E-47B7-99BC-723886986175>
  ###### 实现技术手段
