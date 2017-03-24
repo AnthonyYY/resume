@@ -164,7 +164,5 @@ Gituhb文档首页这样描述该数据库Persistent database for Node.js/NW.js/
 ## 联系方式
 - 邮箱1：yjh2332@gmail.com
 - 邮箱2：yjh2332@163.com
-- zhihu：https://www.zhihu.com/people/xie-jia-hong-20
-
-
-
+- zhihu：<https://www.zhihu.com/people/xie-jia-hong-20>
+- 联系电话: 18850337784
