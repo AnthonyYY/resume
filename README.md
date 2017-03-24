@@ -94,7 +94,7 @@ node.js 提供一个地址端口作为开发环境显示pdf文件的html版本�
 开发遇到的问题： 之前对只专注在代码对业务逻辑的处理，忽视了性能方面的考量，
 程序处理过程中没有对各种情况下的程序处理结果后正确关闭调用的进程导致在使用过程中曾导致服务器崩溃，后面在代码做了处理解决了问题
 
-### [专利管理系统软件](http://pan.baidu.com/share/link?shareid=102749&uk=)
+### [专利管理系统软件](https://pan.baidu.com/s/1kVyU92B)
 下载地址： <http://pan.baidu.com/share/link?shareid=102749&uk=>
 ###### 实现技术手段
 * nw.js(node.js + chromium) 软件开发的技术平台
@@ -162,9 +162,9 @@ Gituhb文档首页这样描述该数据库Persistent database for Node.js/NW.js/
 我觉得自己还需要多多阅读源码
 
 ## 联系方式
--邮箱1：yjh2332@gmail.com
--邮箱2：yjh2332@163.com
--zhihu：https://www.zhihu.com/people/xie-jia-hong-20
+- 邮箱1：yjh2332@gmail.com
+- 邮箱2：yjh2332@163.com
+- zhihu：https://www.zhihu.com/people/xie-jia-hong-20
 
 
 
