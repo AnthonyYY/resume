@@ -95,7 +95,7 @@ node.js 提供一个地址端口作为开发环境显示pdf文件的html版本�
 程序处理过程中没有对各种情况下的程序处理结果后正确关闭调用的进程导致在使用过程中曾导致服务器崩溃，后面在代码做了处理解决了问题
 
 ### [专利管理系统软件](https://pan.baidu.com/s/1kVyU92B)
-下载地址： <http://pan.baidu.com/share/link?shareid=102749&uk=>
+下载地址： <https://pan.baidu.com/s/1kVyU92B>
 ###### 实现技术手段
 * nw.js(node.js + chromium) 软件开发的技术平台
 * angular.js 协助实现数据可视化的框架
